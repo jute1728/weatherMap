@@ -85,7 +85,7 @@ shinyServer(function(input, output) {
                             locationvar="state", colorvar=myVar(),
                             options=list(region="US", displayMode="regions", 
                                          resolution="provinces",
-                                         width=500, height=400,
+                                         width=500, 
                       colorAxis=myColor(),
                       title="My title"
                             ))     
